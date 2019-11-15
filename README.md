@@ -1,1 +1,2 @@
 # inoshun_theme2_html
+個人ブログ用WordPressテーマ「inoshun_theme2_html」の静的コーディングファイル
