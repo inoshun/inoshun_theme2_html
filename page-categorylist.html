@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap" rel="stylesheet">
+  <title>ino nomad</title>
+</head>
+
+<body>
+  <header class="header_hide">
+    <div class="container flex_box">
+      <div class="header_title">
+        <a class="ptSansNarrow" href="">ino nomad</a>
+      </div>
+      <button class="nav_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <main id="page_categorylist">
+    <div class="nav_menu">
+      <ul>
+        <li>
+          <a class="arrow_animation ptSansNarrow" href="">
+            Profile
+            <span><span></span></span>
+          </a>
+        </li>
+        <li>
+          <a class="arrow_animation ptSansNarrow" href="">
+            Categories
+            <span><span></span></span>
+          </a>
+        </li>
+        <li>
+          <a class="arrow_animation ptSansNarrow" href="">
+            Contact
+            <span><span></span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section id="categorylist">
+      <div id="ripples_bg"></div>
+      <a id="back_btn" href="javascript:history.back()"><span></span></a>
+      <div class="container">
+        <ul id="category_ul" class="flex_box">
+          <li><a href="">フリーランス</a></li>
+          <li><a href="">プログラミング</a></li>
+          <li>
+            <a href="#">リモートワーク</a>
+            <ul class="children">
+              <li><a href="">ノマド</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">海外</a>
+            <ul class="children">
+              <li><a href="#">セルビア</a></li>
+              <li><a href="#">ジョージア</a></li>
+            </ul>
+          </li>
+          <li><a href="">英語</a></li>
+          <li><a href="">転職・退職</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer_hide">
+    <p>Copyright © 2019 ino nomad <br class="sp">All Rights Reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/ofi.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/jquery.ripples-min.js"></script>
+  <script src="js/ripples.js"></script>
+  <script src="js/categorylist.js"></script>
+</body>
+
+</html>
